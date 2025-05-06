@@ -27,7 +27,7 @@
   if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $ssn = $_POST["SSN"];
 
-    $con = new mysqli("localhost", "root", "Realmad32", "university_db");
+    $con = new mysqli("", "", "", "");
 
     if ($con->connect_error) {
       echo "<br>Connection failed: " . $con->connect_error;
