@@ -1,4 +1,14 @@
-<h1>Student Grade Records</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Student Grade Records</title>
+</head>
+
+<body>
+
+  <h1>Student Grade Records</h1>
 
 <?php
 
@@ -43,10 +53,9 @@
   } else {
     echo "No courses found for this student.<br><br>";
   }
-
-  $result->free_result();
-  $con->close();
-  ?>
+$result->free_result();
+$con->close();
+?>
 
   <form action="students.html">
     <input type="submit" value="Return Home">
