@@ -1,1 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Find Professor Info</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Find Professor's Class Schedule</h1>
 
+    <form action="professor_ssn.php" method="POST">
+      <label for="SSN">Professor SSN:</label>
+      <input
+        type="text"
+        id="SSN"
+        name="SSN"
+        placeholder="e.g., 123-45-6789"
+        required
+      />
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <form action="professors.html">
+      <input type="submit" value="Return Home" />
+    </form>
+  </body>
+</html>
