@@ -1,1 +1,43 @@
 
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Grade Distribution</title>
+  </head>
+
+  <body>
+    <h1>Grade Distribution by Course & Section</h1>
+
+    <!-- Input Form -->
+    <form method="POST" action="professor_grade_count.php">
+      <label for="CNumber">Enter Course Number:</label>
+      <input
+        type="text"
+        name="CNumber"
+        id="CNumber"
+        placeholder="e.g., MATH-338"
+        required
+      />
+      <br /><br />
+      <label for="CSNum">Enter Section Number:</label>
+      <input
+        type="text"
+        name="CSNum"
+        id="CSNum"
+        placeholder="e.g., 01"
+        required
+      />
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <br />
+
+    <form action="professors.html">
+      <input type="submit" value="Return Home" />
+    </form>
+  </body>
+</html>
