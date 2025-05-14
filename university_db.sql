@@ -147,7 +147,8 @@ INSERT INTO STUDENT VALUES
   ('334455667', 'Aiden', 'Patel', '101 Pine St', 'Fullerton', 'CA', '92831', '657', '4567890', 'CPSC'),
   ('445566778', 'Mia', 'Garcia', '500 Elm St', 'Santa Ana', 'CA', '92701', '714', '5678901', 'MATH'),
   ('556677889', 'Noah', 'Kim', '345 Birch Rd', 'Los Angeles', 'CA', '92821', '562', '6789012', 'CPSC'),
-  ('667788990', 'Olivia', 'Lopez', '888 Maple St', 'Pomona', 'CA', '92868', '714', '7890123', 'CPSC');
+  ('667788990', 'Olivia', 'Lopez', '888 Maple St', 'Pomona', 'CA', '92868', '714', '7890123', 'CPSC'),
+  ('280011234', 'Cam', 'Ward', '321 Oakland Dr', 'San Dimas', 'CA', '91741', '909', '4813104', 'MATH');
 
 
 INSERT INTO ENROLLMENT VALUES
